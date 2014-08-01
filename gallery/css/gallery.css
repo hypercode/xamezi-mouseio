@@ -1,0 +1,100 @@
+@charset "utf-8";
+/* CSS Document */
+
+#info{
+	margin:10px;
+	}
+.hidden{
+	display:none;
+	}
+ul.gallery li{
+	  list-style:none;
+	  float:left;
+	  width:300px;
+	  height:230px;
+	  margin:2px;
+	}
+ul.gallery li img{
+	  width:100%;
+	  height:100%;  
+	}
+ul.gallery li img.delete{
+	  width:20px;
+	  height:20px;
+	  display:none;
+	  position:relative;
+	  top:-230px;
+	  right:-270px;
+	  z-index:10;
+	  cursor:pointer;
+	}
+ul.gallery li img.edit{
+	  width:20px;
+	  height:20px;
+	  display:none;
+	  position:relative;
+	  top:-210px;
+	  right:-250px;
+	  z-index:10;
+	  cursor:pointer;
+	}
+ul.gallery li img.add{
+	  width:48px;
+	  height:48px;
+	  display:block;
+	  margin-left:auto;
+	  margin-right:auto;
+	}
+img#target{
+	width:100%;
+	
+	}
+#crop{
+	position:relative;
+    width:70%;
+	float:left;
+	}
+#areas{
+	width:29%;
+	float:left;
+    }
+#imgAreaDescription{
+	z-index:999;
+	position:absolute;
+	display:none;
+	opacity:0.7;
+    filter:alpha(opacity=70);
+	width:350px;
+	height:100px;
+	}
+img.flag{
+	width:20px;
+	height:15px;
+	margin:5px;
+	cursor:pointer;
+	}
+#imgAreaDescription textarea{
+	width:100%;
+	height:100px;
+}
+.english{
+	  display:none;
+	}
+
+#GR_FLAG,#GR_FLAG_D{
+	 border:2px groove #D94A06;
+	}
+.confirmDescription{
+	 display:block;
+	 float:left;
+	 cursor:pointer;
+	}
+.confirmImage{
+	 display:block;
+	 cursor:pointer;
+	}
+.editDescription, .deleteDescription{
+	 width:15px;
+	 height:15px;
+	 cursor:pointer;
+	}

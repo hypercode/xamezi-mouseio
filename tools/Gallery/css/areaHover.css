@@ -1,0 +1,25 @@
+@charset "utf-8";
+/* CSS Document */
+
+ #areaHoverMessage{
+	display:none;
+	position:absolute;
+	background-image:url(../../../icons/mochaGrunge.png);
+	background-repeat:repeat;
+	width:250px;
+	z-index:12;
+	font-size: 14px;
+	color: #111;
+		}
+ #areaHover{
+	display:display;
+	position:absolute;
+	/*background-color:white;*/
+	opacity:0.3;
+    filter:alpha(opacity=30);
+	z-index:9;
+	border:1px solid red;
+	cursor:pointer;
+	 }
+
+	

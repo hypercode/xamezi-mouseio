@@ -1,0 +1,12 @@
+
+/* IE transparent bg hack */
+#componentWrapper .info_holder,
+#componentWrapper .componentPlaylist,
+.audioPlayer .playerHolder {
+	background: url(../media/data/gallery_icons/bg.png);
+}
+
+#componentWrapper .flashPreviewHolder{
+	display:block;
+}	
+

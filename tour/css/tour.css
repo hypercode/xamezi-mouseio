@@ -1,0 +1,55 @@
+@charset "utf-8";
+/* CSS Document */
+
+.room{
+	position:relative;
+	width:100%;
+	height:300px;
+
+	margin-bottom:15px;
+	padding-bottom:20px;
+	
+	border-bottom-width: 2px;
+	border-bottom-style: groove;
+	border-bottom-color: #D94A06;
+	}
+.room:last-child{
+	border-bottom:0;
+	}
+.room_img{
+	float:left;	
+	padding:2px;
+	width:250px;
+	height:100%;
+	border:1px groove rgba(119, 119, 119, 0.75);
+	box-shadow: 0px 0px 4px 1px rgba(119, 119, 119, 0.75);
+	-moz-box-shadow: 0px 0px 4px 1px rgba(119, 119, 119, 0.75);
+	-webkit-box-shadow: 0px 0px 4px 1px rgba(119, 119, 119, 0.75);
+	}
+
+.room_img img{
+	width:100%;
+	height:100%;
+	}
+	
+.room_summary{
+	float:left;
+	height:100%;
+	width:65%;
+	margin-left:25px;
+	/*border:1px solid green;*/
+	}
+.room_summary h4{
+	margin:0;
+	}
+.room_summary p{
+	height:210px;
+	overflow:hidden;
+	/*border:1px solid green;*/
+	}
+.room_summary a{
+	text-decoration:none;
+	float:right;
+	color: #D94A06;	
+	margin:5px;
+	}

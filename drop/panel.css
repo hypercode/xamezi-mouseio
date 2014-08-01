@@ -1,0 +1,17 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+	overflow-x:hidden;
+	background-image:url(../gallery/cat1/Sport_Classic_Car.jpg);
+	background-size:cover;
+	}
+.popup{
+	 width:300px;
+	 position:absolute;
+	 top:0;
+	 right:-300px;
+	 z-index:3;	
+	 background-image:url(../icons/mochaGrunge.png);
+	 background-repeat:repeat;
+	 }

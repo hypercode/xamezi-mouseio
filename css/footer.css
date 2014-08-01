@@ -1,0 +1,43 @@
+@charset "utf-8";
+/* CSS Document */
+
+#footer{
+	height:80px;
+	text-align:center;
+	margin-bottom:0px;
+	
+	background-image:url(../assets/textures/subtle_dots/subtle_dots.png);
+	background-repeat:repeat;
+	
+	border-top-width: 3px;
+	border-top-style: groove;
+	border-top-color: #D94A06;
+	
+	/*box-shadow: 0px 0px 4px 3px rgba(119, 119, 119, 0.75);
+	-moz-box-shadow: 0px 0px 4px 3px rgba(119, 119, 119, 0.75);
+	-webkit-box-shadow: 0px 0px 4px 3px rgba(119, 119, 119, 0.75);*/
+	
+    }
+#nav_menu_footer{
+	display:inline-block;
+	}
+#nav_menu_footer ul{
+	 list-style-type:none;
+	}
+#nav_menu_footer ul li{
+	 display:inline;
+	 margin-right:15px;
+	}
+#nav_menu_footer ul li a{
+	color: #333;
+	font-size:12px;
+	text-decoration:none;
+	}
+#nav_menu_footer ul li a:hover{
+	color: #666;	
+	}
+#copyright{
+	  color: #333;
+	  font-size:10px;
+	  margin-bottom:15px;
+	}
